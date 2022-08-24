@@ -1,0 +1,28 @@
+*{margin: auto; padding: 0;} 
+/* enmarca el margen en donde vamos a trabajar*/
+/*cuerpo*/
+body{ background-image:url(https://www.todofondos.net/wp-content/uploads/fondos-de-colores-minimalistas-top-gratis-de-colores-minimalistas.-fondo-de-pantalla-hd-1080p-de-colores.png
+);} 
+/*aqui insertamos la imagen de fondo de la pagina*/
+/*Menu*/
+nav{ background-color: aliceblue;}
+/*aqui enmarcamos los directorios*/
+a{ color: black;text-decoration: none; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ; font: size 50px; padding-top: 10px;}
+nav a:link, a:visited{color: aquamarine;}
+nav a:hover{color: lightcoral; background-color: gray;}
+/*section*/
+section{width: 75%; background-color: antiquewhite; float: left;}
+/*float particiona las secciones*/
+section h1{ text-align: center; padding: 0.5em; color: blueviolet; font-size: 25px;front font-family: geneva;}
+section h2{text-align: center; padding: 0.5em; color: rgba(26, 149, 198, 0.615); font-size: 25px;front font-family: geneva;}
+section h3{text-align: center; padding: 0.5em; color: rgba(181, 69, 5, 0.762); font-size: 25px;front font-family: geneva;}    
+/*articulo*//*font-size designa el tama;o de las letras*/
+article{margin: 00.5em 3em; padding: 00.5em 2em; background-color: white; border: 10px double pink;}
+/*aside*/
+aside{width: 25%; float:left;}
+/*para llamar un selector con classusaremos un punto antes del nombre del class*/
+.listas{ background-color: blueviolet; float: left; padding-left: 35px; width: auto;}
+/*[ara llamar un selector con ID usaremos un simbolo de gato con el nombre del ID*/
+#cosito{color: darkgoldenrod; }
+footer{background-color: wheat; clear: both;}
+em{text-align: center;}
